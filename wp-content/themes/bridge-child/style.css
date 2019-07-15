@@ -1,0 +1,47 @@
+/*
+Theme Name: Bridge Child
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: A child theme of Bridge Theme
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 1.0.0
+Template: bridge
+*/
+@import url("../bridge/style.css");
+@media (min-width: 1200px){
+.slider_content.left.skrollable.skrollable-between {
+    width: 53% !important;
+    border-radius: 15px !important;
+    padding: 19px !important;
+	background-color: #19319d;
+}
+	}
+.nav-menu-item-15698 a span {
+    color: #303030 !important;
+}
+nav.main_menu>ul>li>a {
+    position: relative;
+    padding: 0 17px;
+    color: #303030 !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.header_top .right .inner>div {
+    border-left: 0;
+    float: left;
+    padding: 0px 20px !important;
+}
+@media (min-width: 320px) and (max-width: 768px) { 
+.mobile_menu_button span {
+    font-size: 25px!important;
+}
+	div#slide-1-layer-3 span {
+    font-size: 18px!important;
+}
+	div#slide-5-layer-3 span{
+		font-size: 18px!important;
+	}
+}
+
